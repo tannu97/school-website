@@ -1,0 +1,388 @@
+.ecole-home {
+  background: #ffffff;
+}
+
+.ecole-hero {
+  position: relative;
+  min-height: 710px;
+  margin-top: 118px;
+  overflow: hidden;
+}
+
+.ecole-hero img {
+  width: 100%;
+  height: 710px;
+  object-fit: cover;
+  display: block;
+}
+
+.ecole-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(30, 11, 15, 0.54), rgba(30, 11, 15, 0.12));
+}
+
+.ecole-hero-caption {
+  position: absolute;
+  left: max(6vw, 24px);
+  bottom: 96px;
+  color: #ffffff;
+  width: min(640px, calc(100% - 48px));
+}
+
+.ecole-hero-caption span,
+.small-title {
+  display: inline-block;
+  color: #a60f2d;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  margin-bottom: 12px;
+}
+
+.ecole-hero-caption span {
+  color: #ffffff;
+  border-left: 4px solid #d6aa42;
+  padding-left: 12px;
+}
+
+.ecole-hero-caption h1 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: clamp(3rem, 7vw, 5.6rem);
+  margin-bottom: 24px;
+}
+
+.hero-enquire {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  padding: 0 24px;
+  background: #a60f2d;
+  color: #ffffff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.enquiry-strip {
+  background: #a60f2d;
+  color: #ffffff;
+}
+
+.enquiry-inner {
+  min-height: 118px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 24px;
+  align-items: center;
+}
+
+.enquiry-inner h2 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 2rem;
+}
+
+.enquiry-inner p {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.enquiry-inner .btn-primary,
+.join-band .btn-primary {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #a60f2d;
+  box-shadow: none;
+}
+
+.welcome-section {
+  padding: 82px 0;
+}
+
+.welcome-grid,
+.results-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.welcome-copy h2,
+.results-grid h2,
+.section-heading-center h2,
+.join-band h2 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  color: #1a2430;
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+.official-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 24px;
+}
+
+.official-tabs button {
+  border: 1px solid #d8dde4;
+  background: #ffffff;
+  color: #333c48;
+  padding: 10px 14px;
+  font-weight: 800;
+  cursor: default;
+}
+
+.official-tabs button:first-child {
+  background: #a60f2d;
+  border-color: #a60f2d;
+  color: #ffffff;
+}
+
+.welcome-copy p,
+.results-grid p {
+  color: #586374;
+  margin-bottom: 16px;
+}
+
+.welcome-media img,
+.results-grid img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  box-shadow: 0 18px 45px rgba(20, 24, 31, 0.18);
+}
+
+.team-section,
+.updates-section,
+.testimonial-section {
+  background: #f8f4f1;
+  padding: 78px 0;
+}
+
+.section-heading-center {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.team-card,
+.update-card,
+.accolade-card,
+.testimonial-card,
+.faq-list details {
+  background: #ffffff;
+  border: 1px solid #eadfda;
+  box-shadow: 0 10px 28px rgba(20, 24, 31, 0.08);
+}
+
+.team-card {
+  padding: 28px 22px;
+  text-align: center;
+}
+
+.team-card span {
+  width: 86px;
+  height: 86px;
+  display: inline-block;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a60f2d, #d6aa42);
+  margin-bottom: 18px;
+}
+
+.team-card h3,
+.update-card h3,
+.accolade-card h3,
+.testimonial-card h3 {
+  color: #1a2430;
+  font-size: 1.08rem;
+  margin-bottom: 6px;
+}
+
+.team-card p,
+.update-card p,
+.accolade-card p,
+.testimonial-card p,
+.testimonial-card span {
+  color: #5d6570;
+}
+
+.results-section {
+  padding: 82px 0;
+}
+
+.updates-grid,
+.accolades-grid,
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.update-card {
+  overflow: hidden;
+}
+
+.update-image {
+  height: 170px;
+  background:
+    linear-gradient(135deg, rgba(166, 15, 45, 0.58), rgba(214, 170, 66, 0.35)),
+    url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80') center/cover;
+}
+
+.update-card span {
+  display: inline-block;
+  margin: 22px 22px 8px;
+  color: #a60f2d;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.update-card h3,
+.update-card p,
+.update-card a {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.update-card a {
+  display: inline-flex;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  color: #a60f2d;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.center-action {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.accolades-section,
+.faq-section {
+  padding: 78px 0;
+  background: #ffffff;
+}
+
+.accolade-card {
+  min-height: 220px;
+  padding: 30px;
+  text-align: center;
+}
+
+.accolade-card::before {
+  content: '';
+  display: block;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 20px;
+  border: 10px solid #f4e7e2;
+  border-top-color: #a60f2d;
+  border-radius: 50%;
+}
+
+.join-band {
+  text-align: center;
+  padding: 70px 0;
+  background:
+    linear-gradient(90deg, rgba(90, 12, 28, 0.9), rgba(166, 15, 45, 0.8)),
+    url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1500&q=80') center/cover;
+  color: #ffffff;
+}
+
+.join-band h2 {
+  color: #ffffff;
+}
+
+.join-band p {
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.testimonial-card {
+  padding: 30px;
+}
+
+.testimonial-card p {
+  min-height: 120px;
+  margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+  color: #a60f2d;
+}
+
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  gap: 12px;
+}
+
+.faq-list details {
+  padding: 18px 22px;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  color: #1a2430;
+  font-weight: 900;
+}
+
+.faq-list p {
+  color: #586374;
+  margin-top: 12px;
+}
+
+@media (max-width: 920px) {
+  .ecole-hero {
+    margin-top: 76px;
+    min-height: 560px;
+  }
+
+  .ecole-hero img {
+    height: 560px;
+  }
+
+  .enquiry-inner,
+  .welcome-grid,
+  .results-grid,
+  .team-grid,
+  .updates-grid,
+  .accolades-grid,
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .enquiry-inner {
+    padding: 24px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .ecole-hero-caption {
+    bottom: 54px;
+  }
+
+  .welcome-media img,
+  .results-grid img {
+    height: 280px;
+  }
+}
+
+.team-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
